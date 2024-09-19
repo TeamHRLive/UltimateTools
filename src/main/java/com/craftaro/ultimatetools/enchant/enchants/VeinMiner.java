@@ -8,6 +8,7 @@ import com.craftaro.ultimatetools.enchant.EnchantType;
 import com.craftaro.ultimatetools.enchant.ToolType;
 import org.bukkit.Location;
 import org.bukkit.block.Block;
+import org.bukkit.enchantments.Enchantment;
 import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.inventory.ItemStack;
 
@@ -70,7 +71,9 @@ public class VeinMiner extends AbstractEnchant {
                 }
             }
         }
+        if(!pick.getItemMeta().isUnbreakable()){
         applyDamage(pick, damageToApply);
+        }
     }
 }
 
