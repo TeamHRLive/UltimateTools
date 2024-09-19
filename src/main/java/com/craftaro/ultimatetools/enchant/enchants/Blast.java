@@ -27,8 +27,9 @@ public class Blast extends AbstractEnchant {
         List<Block> destroyedBlocks = getBlocksInArea(block.getLocation(), event.getPlayer());
         for (Block destroyedBlock : destroyedBlocks)
             destroyedBlock.breakNaturally(tool);
-
+        if(!tool.getItemMeta().isUnbreakable()){
         applyDamage(tool, destroyedBlocks.size());
+        }
     }
 
     private List<Block> getBlocksInArea(Location location, Player player) {
