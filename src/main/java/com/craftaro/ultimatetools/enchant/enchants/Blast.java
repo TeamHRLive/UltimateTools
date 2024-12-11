@@ -28,7 +28,7 @@ public class Blast extends AbstractEnchant {
         for (Block destroyedBlock : destroyedBlocks)
             destroyedBlock.breakNaturally(tool);
         if(!tool.getItemMeta().isUnbreakable()){
-        applyDamage(tool, destroyedBlocks.size());
+            applyDamage(tool, destroyedBlocks.size());
         }
     }
 

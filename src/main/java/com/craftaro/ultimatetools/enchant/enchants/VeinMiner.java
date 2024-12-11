@@ -71,7 +71,7 @@ public class VeinMiner extends AbstractEnchant {
             }
         }
         if(!pick.getItemMeta().isUnbreakable()){
-        applyDamage(pick, damageToApply);
+            applyDamage(pick, damageToApply);
         }
     }
 }
