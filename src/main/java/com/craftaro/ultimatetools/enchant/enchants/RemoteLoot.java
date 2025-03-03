@@ -122,7 +122,6 @@ RemoteLoot extends AbstractEnchant {
         if (location == null
                 || material == XMaterial.CHEST
                 || Settings.REMOTE_TOOLS_BLACKLIST.getStringList().contains(event.getBlock().getType().name())
-
                 || material.name().contains("SHULKER")
                 || material == XMaterial.SPAWNER) {
             return;
