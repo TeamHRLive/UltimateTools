@@ -1,5 +1,6 @@
 package com.craftaro.ultimatetools.enchant.enchants;
 
+import com.craftaro.third_party.com.cryptomorin.xseries.XMaterial;
 import com.craftaro.ultimatetools.enchant.AbstractEnchant;
 import com.craftaro.ultimatetools.enchant.EnchantHandler;
 import com.craftaro.ultimatetools.enchant.EnchantType;
@@ -67,7 +68,9 @@ public class Blast extends AbstractEnchant {
 
                     Block block = centerLocation.clone().add(x, y, z).getBlock();
                     if (block.getType() != Material.BEDROCK
-                            && block.getType() != Material.BARRIER) {
+                            && block.getType() != XMaterial.BARRIER.get()
+                    && block.getType() != XMaterial.END_PORTAL.get()
+                    && block.getType() != XMaterial.END_GATEWAY.get()) {
                         blocks.add(block);
                     }
                 }
