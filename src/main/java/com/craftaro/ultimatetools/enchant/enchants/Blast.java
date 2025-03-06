@@ -1,9 +1,11 @@
 package com.craftaro.ultimatetools.enchant.enchants;
 
+import com.craftaro.third_party.com.cryptomorin.xseries.XMaterial;
 import com.craftaro.ultimatetools.enchant.AbstractEnchant;
 import com.craftaro.ultimatetools.enchant.EnchantHandler;
 import com.craftaro.ultimatetools.enchant.EnchantType;
 import com.craftaro.ultimatetools.enchant.ToolType;
+import com.craftaro.ultimatetools.settings.Settings;
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
@@ -64,10 +66,13 @@ public class Blast extends AbstractEnchant {
         for (int x = -1; x <= 1; x++) {
             for (int y = -1; y <= 1; y++) {
                 for (int z = -1; z <= 1; z++) {
-
                     Block block = centerLocation.clone().add(x, y, z).getBlock();
-                    if (block.getType() != Material.BEDROCK
-                            && block.getType() != Material.BARRIER) {
+                    Material blockType = block.getType();
+
+                    // Check if the block is blacklisted
+                    if (blockType != Material.BEDROCK
+                            && blockType != XMaterial.BARRIER.get()
+                            && !Settings.BLAST_TOOLS_BLACKLIST.getStringList().contains(blockType.name())) {
                         blocks.add(block);
                     }
                 }
