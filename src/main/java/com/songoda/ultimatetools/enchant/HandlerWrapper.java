@@ -1,4 +1,4 @@
-package com.craftaro.ultimatetools.enchant;
+package com.songoda.ultimatetools.enchant;
 
 import java.lang.reflect.Method;
 

@@ -1,15 +1,15 @@
-package com.craftaro.ultimatetools.enchant.enchants;
+package com.songoda.ultimatetools.enchant.enchants;
 
-import com.craftaro.core.compatibility.ServerVersion;
-import com.craftaro.third_party.com.cryptomorin.xseries.XMaterial;
-import com.craftaro.core.third_party.de.tr7zw.nbtapi.NBTItem;
-import com.craftaro.ultimatetools.UltimateTools;
-import com.craftaro.ultimatetools.enchant.AbstractEnchant;
-import com.craftaro.ultimatetools.enchant.EnchantHandler;
-import com.craftaro.ultimatetools.enchant.EnchantType;
-import com.craftaro.ultimatetools.enchant.ToolType;
-import com.craftaro.ultimatetools.settings.Settings;
-import com.craftaro.ultimatetools.utils.LocationUtils;
+import com.songoda.core.compatibility.ServerVersion;
+import com.songoda.third_party.com.cryptomorin.xseries.XMaterial;
+import com.songoda.core.third_party.de.tr7zw.nbtapi.NBTItem;
+import com.songoda.ultimatetools.UltimateTools;
+import com.songoda.ultimatetools.enchant.AbstractEnchant;
+import com.songoda.ultimatetools.enchant.EnchantHandler;
+import com.songoda.ultimatetools.enchant.EnchantType;
+import com.songoda.ultimatetools.enchant.ToolType;
+import com.songoda.ultimatetools.settings.Settings;
+import com.songoda.ultimatetools.utils.LocationUtils;
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.enchantments.Enchantment;

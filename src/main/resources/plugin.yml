@@ -1,8 +1,8 @@
 name: UltimateTools
 description: UltimateTools
-main: com.craftaro.ultimatetools.UltimateTools
+main: com.songoda.ultimatetools.UltimateTools
 version: maven-version-number
-author: Craftaro
+author: Songoda
 api-version: 1.13
 commands:
   UTO:

@@ -1,7 +1,7 @@
-package com.craftaro.ultimatetools.listeners;
+package com.songoda.ultimatetools.listeners;
 
-import com.craftaro.ultimatetools.UltimateTools;
-import com.craftaro.ultimatetools.enchant.EnchantManager;
+import com.songoda.ultimatetools.UltimateTools;
+import com.songoda.ultimatetools.enchant.EnchantManager;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 import org.bukkit.entity.TNTPrimed;

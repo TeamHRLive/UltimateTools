@@ -1,9 +1,9 @@
-package com.craftaro.ultimatetools.enchant.enchants;
+package com.songoda.ultimatetools.enchant.enchants;
 
-import com.craftaro.third_party.com.cryptomorin.xseries.XMaterial;
-import com.craftaro.ultimatetools.enchant.AbstractEnchant;
-import com.craftaro.ultimatetools.enchant.EnchantHandler;
-import com.craftaro.ultimatetools.enchant.EnchantType;
+import com.songoda.third_party.com.cryptomorin.xseries.XMaterial;
+import com.songoda.ultimatetools.enchant.AbstractEnchant;
+import com.songoda.ultimatetools.enchant.EnchantHandler;
+import com.songoda.ultimatetools.enchant.EnchantType;
 import org.bukkit.block.Block;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.ItemStack;
@@ -12,7 +12,7 @@ public class MultiTool extends AbstractEnchant {
 
     public MultiTool() {
         super(EnchantType.MULTI_TOOL, "Multi Tool", 1, 3,
-                com.craftaro.ultimatetools.enchant.ToolType.PICKAXE, com.craftaro.ultimatetools.enchant.ToolType.AXE, com.craftaro.ultimatetools.enchant.ToolType.SHOVEL);
+                com.songoda.ultimatetools.enchant.ToolType.PICKAXE, com.songoda.ultimatetools.enchant.ToolType.AXE, com.songoda.ultimatetools.enchant.ToolType.SHOVEL);
     }
 
     @EnchantHandler

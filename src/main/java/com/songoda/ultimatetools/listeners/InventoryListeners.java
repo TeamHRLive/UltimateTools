@@ -1,11 +1,11 @@
-package com.craftaro.ultimatetools.listeners;
+package com.songoda.ultimatetools.listeners;
 
 
-import com.craftaro.third_party.com.cryptomorin.xseries.XMaterial;
-import com.craftaro.core.third_party.de.tr7zw.nbtapi.NBTItem;
-import com.craftaro.ultimatetools.UltimateTools;
-import com.craftaro.ultimatetools.enchant.AbstractEnchant;
-import com.craftaro.ultimatetools.enchant.EnchantManager;
+import com.songoda.third_party.com.cryptomorin.xseries.XMaterial;
+import com.songoda.core.third_party.de.tr7zw.nbtapi.NBTItem;
+import com.songoda.ultimatetools.UltimateTools;
+import com.songoda.ultimatetools.enchant.AbstractEnchant;
+import com.songoda.ultimatetools.enchant.EnchantManager;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;

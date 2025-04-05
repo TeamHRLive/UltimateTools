@@ -1,8 +1,8 @@
-package com.craftaro.ultimatetools.settings;
+package com.songoda.ultimatetools.settings;
 
-import com.craftaro.core.configuration.Config;
-import com.craftaro.core.configuration.ConfigSetting;
-import com.craftaro.ultimatetools.UltimateTools;
+import com.songoda.core.configuration.Config;
+import com.songoda.core.configuration.ConfigSetting;
+import com.songoda.ultimatetools.UltimateTools;
 
 import java.util.Arrays;
 

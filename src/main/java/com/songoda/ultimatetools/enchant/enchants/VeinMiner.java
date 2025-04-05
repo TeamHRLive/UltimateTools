@@ -1,11 +1,11 @@
-package com.craftaro.ultimatetools.enchant.enchants;
+package com.songoda.ultimatetools.enchant.enchants;
 
-import com.craftaro.core.compatibility.CompatibleHand;
-import com.craftaro.third_party.com.cryptomorin.xseries.XMaterial;
-import com.craftaro.ultimatetools.enchant.AbstractEnchant;
-import com.craftaro.ultimatetools.enchant.EnchantHandler;
-import com.craftaro.ultimatetools.enchant.EnchantType;
-import com.craftaro.ultimatetools.enchant.ToolType;
+import com.songoda.core.compatibility.CompatibleHand;
+import com.songoda.third_party.com.cryptomorin.xseries.XMaterial;
+import com.songoda.ultimatetools.enchant.AbstractEnchant;
+import com.songoda.ultimatetools.enchant.EnchantHandler;
+import com.songoda.ultimatetools.enchant.EnchantType;
+import com.songoda.ultimatetools.enchant.ToolType;
 import org.bukkit.Location;
 import org.bukkit.block.Block;
 import org.bukkit.event.block.BlockBreakEvent;

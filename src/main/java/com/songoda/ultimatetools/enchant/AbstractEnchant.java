@@ -1,8 +1,8 @@
-package com.craftaro.ultimatetools.enchant;
+package com.songoda.ultimatetools.enchant;
 
-import com.craftaro.third_party.com.cryptomorin.xseries.XMaterial;
-import com.craftaro.core.third_party.de.tr7zw.nbtapi.NBTItem;
-import com.craftaro.core.utils.TextUtils;
+import com.songoda.third_party.com.cryptomorin.xseries.XMaterial;
+import com.songoda.core.third_party.de.tr7zw.nbtapi.NBTItem;
+import com.songoda.core.utils.TextUtils;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.event.entity.EntityDamageByEntityEvent;

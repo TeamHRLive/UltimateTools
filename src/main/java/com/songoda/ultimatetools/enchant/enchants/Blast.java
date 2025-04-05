@@ -1,11 +1,11 @@
-package com.craftaro.ultimatetools.enchant.enchants;
+package com.songoda.ultimatetools.enchant.enchants;
 
-import com.craftaro.third_party.com.cryptomorin.xseries.XMaterial;
-import com.craftaro.ultimatetools.enchant.AbstractEnchant;
-import com.craftaro.ultimatetools.enchant.EnchantHandler;
-import com.craftaro.ultimatetools.enchant.EnchantType;
-import com.craftaro.ultimatetools.enchant.ToolType;
-import com.craftaro.ultimatetools.settings.Settings;
+import com.songoda.third_party.com.cryptomorin.xseries.XMaterial;
+import com.songoda.ultimatetools.enchant.AbstractEnchant;
+import com.songoda.ultimatetools.enchant.EnchantHandler;
+import com.songoda.ultimatetools.enchant.EnchantType;
+import com.songoda.ultimatetools.enchant.ToolType;
+import com.songoda.ultimatetools.settings.Settings;
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
